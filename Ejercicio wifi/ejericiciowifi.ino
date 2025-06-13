@@ -18,7 +18,7 @@ void setup() {
   Serial.begin(115200);
 
   // Conectarse a una red por nombre + contraseña
-  WiFi.begin("MovistarSoraya", "15430253656");
+  WiFi.begin("---", "----");
 
   if (WiFi.status() != WL_CONNECTED){
     // aun no esta conectado
